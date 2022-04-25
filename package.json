@@ -1,0 +1,27 @@
+{
+  "name": "trivia_game",
+  "version": "1.0.0",
+  "description": "A basic trivia game for one or two players.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon --ext *"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kloerogers/triviaGame_updated.git"
+  },
+  "author": "Kloe Rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kloerogers/triviaGame_updated/issues"
+  },
+  "homepage": "https://github.com/kloerogers/triviaGame_updated#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
